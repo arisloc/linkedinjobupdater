@@ -1,0 +1,14 @@
+[
+  {
+    "name": "SWE Intern - Seattle",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=Software%20Engineering%20Intern&location=Seattle%2C%20Washington%2C%20United%20States",
+    "include_keywords": ["intern", "software"],
+    "exclude_keywords": ["senior", "staff", "principal"]
+  },
+  {
+    "name": "AI Research - Remote",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=AI%20Research&location=United%20States&f_WT=2",
+    "include_keywords": ["ai", "research"],
+    "exclude_keywords": []
+  }
+]

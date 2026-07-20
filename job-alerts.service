@@ -1,0 +1,16 @@
+[Unit]
+Description=LinkedIn Job Alerts - Scanner
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=jobalerts
+WorkingDirectory=/opt/linkedin-job-alerts
+EnvironmentFile=/opt/linkedin-job-alerts/.env
+ExecStart=/opt/linkedin-job-alerts/venv/bin/python main.py
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
